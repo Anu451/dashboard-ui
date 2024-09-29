@@ -1,0 +1,40 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+	content: ['./src/**/*.{html,js,jsx}'],
+	theme: {
+		extend: {
+			fontFamily: {
+				'inter-regular': ['inter-regular', 'sans-serif'],
+				'inter-bold': ['inter-bold', 'sans-serif'],
+				'inter-medium': ['inter-medium', 'sans-serif'],
+				'inter-semiBold': ['inter-semiBold', 'sans-serif'],
+				'poppins-regular': ['poppins-regular', 'sans-serif'],
+				'poppins-bold': ['poppins-bold', 'sans-serif'],
+				'poppins-medium': ['poppins-medium', 'sans-serif'],
+				'poppins-semiBold': ['poppins-semiBold', 'sans-serif'],
+				'poppins-extraBold': ['poppins-extraBold', 'sans-serif'],
+			},
+			colors: {
+				'black-60': '#45464E',
+				'black-50': '#53545C',
+				'black-30': '#8B8D97',
+				'black-40': '#6E7079',
+				'black-20': '#A6A8B1',
+				'black-10': '#BEC0CA',
+				'black-100': '#1C1D22',
+				'red-100': '#CC5F5F',
+				'primary-blue-100': '#5570F1',
+				'primart-blue-50': '#97A5EB',
+				'primart-blue-30': '#B6BFE8',
+				'primart-blue-20': '#C4CAE8',
+				green: '#519C66',
+				red: '#CC5F5F',
+				'secondary-100': '#FFCC91',
+				'backgroung-grey': '#F4F5FA',
+				'secondary-50': '#FFEAD1',
+				'secondary-40': '#FFF0DE',
+			},
+		},
+	},
+	plugins: [],
+};

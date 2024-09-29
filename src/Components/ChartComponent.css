@@ -1,0 +1,53 @@
+.chart-container {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.summary-text {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.dropdown-container,
+.date-range-container {
+	position: relative;
+}
+
+.dropdown {
+	appearance: none;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	border-radius: 8px;
+	padding: 8px 12px;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #333;
+	cursor: pointer;
+}
+
+.dropdown:focus {
+	outline: none;
+	border-color: #8884d8;
+}
+
+.dropdown::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #8884d8;
+	transform: translateY(-50%);
+}

@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'inter-regular';
+	src: url('./Assets/Fonts/inter/Inter-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'inter-bold';
+	src: url('./Assets/Fonts/inter/Inter-Bold.ttf');
+}
+@font-face {
+	font-family: 'inter-medium';
+	src: url('./Assets/Fonts/inter/Inter-Medium.ttf');
+}
+@font-face {
+	font-family: 'inter-semiBold';
+	src: url('./Assets/Fonts/inter/Inter-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'poppins-regular';
+	src: url('./Assets/Fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+	font-family: 'poppins-bold';
+	src: url('./Assets/Fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+	font-family: 'poppins-medium';
+	src: url('./Assets/Fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+	font-family: 'poppins-semiBold';
+	src: url('./Assets/Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'poppins-extraBold';
+	src: url('./Assets/Fonts/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@layer components {
+	.header-medium {
+		@apply font-poppins-medium text-[20px] text-black-60;
+	}
+
+	.secondary-bg {
+		@apply bg-secondary-40 py-[11px] px-[16px] rounded-lg;
+	}
+}
+
+.black-bg {
+	@apply bg-slate-100 py-[11px] px-[16px] rounded-lg;
+}
+
+.text-grey-10 {
+	@apply text-black-10 text-[12px];
+}
+
+.sub-text {
+	@apply text-[16px] text-black-30 font-normal;
+}
+
+.numeric-text {
+	@apply font-poppins-regular text-black-60 text-[20px] font-medium;
+}
+.card-fixed-white {
+	@apply bg-white w-[320px] h-[145px] px-[15px] py-[11px] rounded-lg flex flex-col justify-between;
+}
+.text-medium {
+	@apply font-inter-medium text-[16px] text-black-60;
+}
+.card-large-white {
+	@apply bg-white w-[425px] h-[145px] px-[15px] py-[11px] rounded-lg flex flex-col justify-between;
+}
+.card-fixed-blue {
+	@apply bg-primary-blue-100 w-[320px] h-[145px] px-[15px] py-[11px] rounded-lg flex flex-col justify-between;
+}
+
+.bg-blue {
+	@apply bg-primart-blue-20 w-fit p-2 rounded-lg;
+}
+
+.bg-yellow {
+	@apply bg-secondary-40 w-fit p-2 rounded-lg;
+}
+
+.green-text {
+	@apply text-[12px] text-green font-normal;
+}
+.table-head {
+	@apply py-2 px-4 border-b text-[14px] text-[#2C2D33];
+}
+.table-body {
+	@apply text-[14px] text-black-40;
+}
